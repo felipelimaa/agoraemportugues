@@ -6,7 +6,7 @@ import "./styles.css";
 const Navbar = () => {
 	return (
 		<div id="Navbar">
-			<div></div>
+			<div id="Navbar-none"></div>
 			<div id="Navbar-button">
 				<button>INÍCIO</button>
 				<button>TEXTOS</button>

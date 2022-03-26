@@ -1,13 +1,12 @@
 import Navbar from "./components/Navbar"
+import Title from "./components/Title"
 
 function App() {
   return (
     <>
       <Navbar />
-      <div id="Titulo">
-        <h1>Marina Beatryz Dantas Costa</h1>
-        <p>Revisão de Texto</p>
-      </div>
+      
+      <Title />
 
       <div id="Formacao">
         <h3>Formação</h3>
