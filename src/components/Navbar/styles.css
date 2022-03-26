@@ -1,0 +1,77 @@
+#Navbar {
+    background-color: var(--color-primary);
+    height: 4rem;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    column-gap: 1rem;
+}
+
+#Navbar > div {
+    flex: auto;
+    width: 33%;
+}
+
+#Navbar-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Navbar-button > button {
+    color: var(--color-primary);
+    background-color: var(--color-black);
+    border: none;
+    border-radius: 4px;
+    width: 6rem;
+    height: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    transition: transform .2s;
+    font-weight: 700;
+    
+}
+
+#Navbar-button > button:hover {
+    color: var(--color-black);
+    background-color: var(--color-primary);
+    border: 1px solid;
+    border-color: var(--color-black);
+    transform: scale(1.2);
+}
+
+#Navbar-icon {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 4rem;
+    text-decoration: none;
+}
+
+#Navbar-icon > a {
+    font-size: 1.8rem;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: var(--color-black);
+    transition: transform .2s;
+}
+
+#Navbar-icon > a:link {
+    text-decoration: none;
+}
+
+#Navbar-icon > a:visited {
+    text-decoration: none;
+}
+
+#Navbar-icon > a:hover {
+    text-decoration: none;
+    transform: scale(1.2);
+}
+
+#Navbar-icon > a:active {
+    text-decoration: none;
+}

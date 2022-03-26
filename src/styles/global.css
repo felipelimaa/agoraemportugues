@@ -1,0 +1,16 @@
+@import url('http://fonts.cdnfonts.com/css/glacial-indifference-2');
+
+:root {
+    --color-primary: #F09700;
+    --color-white: #fff;
+    --color-black: #000;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Glacial Indifference';
+    font-weight: 700;
+    font-style: normal;
+}
