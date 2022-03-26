@@ -1,0 +1,30 @@
+@import url('http://fonts.cdnfonts.com/css/fredoka-one');
+
+#Title {
+    height: 300px;
+    padding-top: 100px;
+}
+
+#Title > h1 {
+    font-family: 'Fredoka One';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    font-size: 4.8vw;
+
+    margin-bottom: 0;
+
+    color: var(--color-primary);
+
+    text-align: center;
+}
+
+#Title > h3 {
+    font-family: 'Glacial Indifference';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    font-size: 2vw;
+
+    text-align: center;
+}
